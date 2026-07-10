@@ -1,0 +1,35 @@
+body
+{
+    background-color: #1E1E1E;
+
+    margin: 0;
+    height: 100vh;
+    line-height: 1.4;
+}
+
+.panel
+{
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    color: #FFF1E8;
+    
+    height: 100vh;
+	
+	border-style: solid;
+	border-color: #FF004D;
+	border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.banner
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: -20px -20px 0 -20px;
+}
