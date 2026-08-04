@@ -1,35 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 body
 {
-    background-color: #1E1E1E;
-
-    margin: 0;
-    height: 100vh;
-    line-height: 1.4;
+  background-color: #1E1E1E;
+  background-image: url('img/backdrop.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  image-rendering: pixelated;
+  font-family: 'Cabin';
+  margin: 0;
+  height: 100vh;
 }
 
 .panel
 {
-    width: 800px;
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #1E1E1E;
-    color: #FFF1E8;
-    
-    height: 100vh;
+  box-sizing: border-box;
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #1E1E1E;
+  color: #FFF1E8;
 	
 	border-style: solid;
 	border-color: #FF004D;
 	border-width: 2px;
     border-top: none;
-    border-bottom: none;
 }
 
 .banner
 {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: -20px -20px 0 -20px;
+  box-sizing: border-box;
+  width: 800px;
+  height: auto;
+  max-width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+p
+{
+  line-height: 1.4;
+}
+
+a
+{
+  outline-color: transparent;
+}
+
+a:link
+{
+  color: #FF004D;
+}
+
+a:visited
+{
+  color: #83769C;
+}
+
+a:focus
+{
+  text-decoration: none;
+  background: #5F574F;
+}
+
+a:hover
+{
+  text-decoration: none;
+  background: #5F574F;
+}
+
+a:active
+{
+  background: #FF004D;
+  color: #FFF1E8;
+}
+
+.header-wrap
+{
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header-title
+{
+  margin: 0;
+  color: #FFF1E8;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.header-divider
+{
+  width: 2px;
+  height: auto;
+  background-color: #5F574F;
+}
+
+.header-subtext
+{
+  font-size: 1.1rem;
+  font-style: italic;
+  align-content: center;
+  color: #5F574F;
+}
+
+.screenshot
+{
+  float: left;
+  margin-right: 16px;
+}
+
+.gun-image
+{
+  float: left;
+  height: 3em;
+  width: auto;
+  image-rendering: pixelated;
+}
+
+.content-block
+{
+  display: flow-root;
+}
+
+.content-block p:first-of-type
+{
+    margin-top: 0;
+}
+
+.content-block ul
+{
+    display: flow-root;
+    padding-left: 1em;
+}
+
+.screenshot-gallery
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+  padding: 8px;
+  image-rendering: auto;
+}
+
+.screenshot-gallery-item
+{
+  overflow: hidden;
+  border-radius: 1px;
+  background: #1E1E1E;
+  aspect-ratio: 1;
+}
+
+.screenshot-gallery-item img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.weapon-row
+{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.weapon-cell-image
+{
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: #141414;
+}
+
+.weapon-cell-image img
+{
+  width: 15em;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.weapon-cell-text
+{
+  flex: 1 1 auto;
+  margin: -1em 0
+}
+
+.weapon-cell-video
+{
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF004D;
+  overflow: hidden;
+  display: flex;
+}
+
+.weapon-cell-video video
+{
+  width: 270px;
+  height: auto;
+  display: block;
+}
+
+.art-gallery
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 8px 0;
+}
+
+.art-image
+{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #FFF1E8;
+  image-rendering: auto;
+}
+
+.enemy-row
+{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.enemy-cell-image
+{
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #FF004D;
+  background-color: #141414;
+  overflow: hidden;
+}
+
+.enemy-cell-image img
+{
+  width: 120%;
+  height: 120%;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.enemy-cell-text
+{
+  flex: 1 1 auto;
+}
+
+.enemy-name
+{
+  margin: 0 0 4px 0;
+}
+
+.enemy-score
+{
+  margin: 0 0 8px 0;
+  font-style: italic;
+  color: #83769C;
+}
+
+.enemy-desc
+{
+  margin: 0;
+}
+
+.weapon-shotgun .weapon-cell-image
+{
+  border-color: #29ADFF;
+}
+
+.weapon-railgun .weapon-cell-image
+{
+  border-color: #FF004D;
+}
+
+.weapon-missile .weapon-cell-image
+{
+  border-color: #00E436;
 }

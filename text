@@ -1,0 +1,91 @@
+INTRODUCTION
+
+Welcome to SCARLET PRISM! A frenetic, fast-paced, colourful 2D twin-stick shooter.
+
+You are Astraea, an angelic maiden, thrown onto an arena, destined to fight off corrupt, scarlet prisms (!) and corrupted celestial beings for all eternity. Or, for as a long as you can survive.
+
+You can play the game on itch.io - it's available for Windows, Linux, or directly in your browser! All free of charge, forever.
+
+Features:
+* Endless arcade carnage - how long will you survive? That is the question.
+* Overstimulating visuals, just as we love it!
+* 3 devastating weapons for you to play around, as well as an upgrade system for you main gun.
+* 8 dangerous celestial enemies!
+* Pounding electronic music by Cadmium! 
+* Online scoreboard!
+* High refresh rate support!
+
+Game made by Matvey Kerov (aeterasu/thejohnyfeed). Music by Cadmium. Made with Godot 4.6 in 2026.
+
+---
+
+CONTROLS
+
+Keyboard and mouse:
+
+Game:
+* WASD - movement
+* Mouse - aim
+* Left Mouse Button - rapid shot
+* Right Mouse Button (or Space) - special weapon
+
+Alternatively, you can aim and shoot using the arrow keys on your keyboard.
+
+Misc:
+* Escape (or P, for web version) - pause
+* R - restart
+
+GAMEPAD:
+
+Game:
+* Left Analogue Stick - move
+* Right Analogue Stick - aim and shoot
+* Any of the bumper buttons (RB/LB/RT/LT) - special weapon
+
+Misc:
+* Start - pause
+* Select - restart
+
+---
+
+OVERVIEW
+
+In Scarlet Prism, you are thrown onto a circular arena, and are tasked with fending off against endlessly spawning enemies. The game has no end other than your death, and your goal is to kill as many enemies as possible, while scoring as much as possible. You will die in one hit, so careful dodging and quick offenses are you best friend!
+
+Your main gun shoot continuously as long as you hold the button and has endless ammunition. All of your attacks can destroy enemies' bullets - use that to your advantage.
+
+Enemies spawn in small waves - once you finish off a wave, the next one spawns. If you're too slow, however, the next wave will spawn regardless, giving you no breathing room! Exciting. After certain waves, pickups will spawn - the first one will be a special weapon pickup, which grants you an additional attack of your choice, and all others will be linear upgrades for your main gun. There is no RNG involved in those - that ain't the kind of game we're playing here.
+
+ui overview.png
+
+---
+
+WEAPONS
+
+Special weapons are devastating, yet limited.
+
+Once you pick up a special weapon, press the special weapon button to fire it. Firing it will consume a certain amount of ammo (exact amount depends on your gun) - you cannot fire gun at all if you do not have enough ammo. Enemies killed with the special weapon will drop little colourful stars - those are score items! Be sure to pick them up to get lots of score. Enemies will also sometimes drop small ammo packs - quickly pick them up to replenish your ammo. They will disappear if not picked up. A single ammo pickup restored 40% of your ammo.
+
+Guns:
+
+BUCKSHOT SALVO:
+
+    - Fast firing shotgun. Shoots a wide arc of slow projectiles, dealing high damage and destroying all of the enemy projectiles in their path. Costs 15% ammo per shot. Useful for clearing a wide area.
+
+HYPER LASER:
+
+    - Devastating railgun that fires a straight laser with pinpoint accurasy, penetrating through multiple enemies and dealing extreme damage and destroing enemy projectiles. Your best bet for consistent scoring and clearing corridors of enemies. Costs 20% ammo per shot.
+
+CASCADE MISSILE:
+
+    - A slow firing missile launcher - shoots a slow moving projectile, that, when hits anything in its path, creates a devastating aoe explosion, and shoots multiple projectiles in all directions. Good for fullscreen damage. Costs 30% ammo per shot.
+
+---
+
+ENEMIES
+
+---
+
+SCORING
+
+---
