@@ -295,6 +295,20 @@ a:active
   margin: 0;
 }
 
+.game-title-cycle
+{
+  animation: pico8-cycle 1s linear infinite;
+}
+
+@keyframes pico8-cycle
+{
+  0%   { color: #FF004D; }
+  25%  { color: #FFEC27; }
+  50%  { color: #00E436; }
+  75%  { color: #29ADFF; }
+  100% { color: #FF004D; }
+}
+
 .weapon-shotgun .weapon-cell-image
 {
   border-color: #29ADFF;
